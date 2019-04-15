@@ -18,5 +18,10 @@ page_sections:
     content: content contentconten tcontentco ntentco ntentcontentcontentc ontentcontentconte
       ntcon tentcontentconte ntcontentcontentcontentcontent content content content
       content
+- template: 3-column-text
+  block: three-column-1
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
 
 ---

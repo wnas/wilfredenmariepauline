@@ -7,6 +7,8 @@ page_sections:
   block: header-2
   logo: "/uploads/teddy-bear.jpg"
   navigation:
+  - link: "/test.html"
+    link_text: test
   - link: "/"
     link_text: Home
   - link: "#"
