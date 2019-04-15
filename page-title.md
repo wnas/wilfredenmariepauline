@@ -5,6 +5,7 @@ date: 2019-04-14 22:00:00 +0000
 page_sections:
 - template: simple-header
   block: header-3
+  logo: "/uploads/2018/06/21/IMG_8185.JPG"
 - template: 2-column-text
   block: two-column-1
   col_1:
