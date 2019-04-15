@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  outline: 1px dotted #ccc;
 }
 
 /*
@@ -14,6 +15,8 @@ body {
   font-family: Helvetica;
 
   --default-padding: 1em;
+
+  --default-column-width: 25vw;
 }
 
 h1 {
@@ -24,12 +27,31 @@ h2 {
 }
 
 /*
+reset some padding and margins
+*/
+figure {
+  margin: 0;
+}
+/*
   MAIN GRID LAYOUT
   */
-body {
+body,
+.columns {
   display: grid;
+}
+
+.columns {
+  grid-gap: var(--default-padding);
+  grid-template-columns: 1fr, 1fr;
 }
 
 body > .block {
   padding: 0 var(--default-padding);
+}
+
+/*
+images
+*/
+img {
+  width: 100%;
 }
