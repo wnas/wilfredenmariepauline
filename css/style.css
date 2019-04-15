@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+/*
+  declare variables
+*/
+
+body {
+  --default-font-size: 1.5em;
+  --default-font-size-xl-header: 3.5em;
+  --default-font-size-l-header: 2.5em;
+  --default-font-weight: 400;
+  font-family: Helvetica;
+
+  --default-padding: 1em;
+}
+
+h1 {
+  font-size: var(--default-font-size-xl-header);
+}
+h2 {
+  font-size: var(--default-font-size-l-header);
+}
+
+/*
+  MAIN GRID LAYOUT
+  */
+body {
+  display: grid;
+}
+
+body > .block {
+  padding: 0 var(--default-padding);
+}
