@@ -12,5 +12,10 @@ page_sections:
     content: content contentconten tcontentco ntentco ntentcontentcontentc ontentcontentconte
       ntcon tentcontentconte ntcontentcontentcontentcontent content content content
       content
+  col_2:
+    headline: headline column 2
+    content: content contentconten tcontentco ntentco ntentcontentcontentc ontentcontentconte
+      ntcon tentcontentconte ntcontentcontentcontentcontent content content content
+      content
 
 ---
