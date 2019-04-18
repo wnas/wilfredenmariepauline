@@ -42,7 +42,27 @@ body,
 
 .columns {
   grid-gap: var(--default-padding);
-  grid-template-columns: 1fr, 1fr;
+  grid-template-columns: auto;
+}
+.columns .column {
+  width: 100%;
+}
+.columns .text {
+  width: 40%;
+}
+.columns .media {
+  width: 60%;
+}
+
+.block-one-column-1 .columns {
+  grid-template-columns: 1fr;
+}
+
+.block-two-column-1 .columns {
+  grid-template-columns: 1fr 1fr;
+}
+.block-three-column-1 .columns {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 body > .block {
